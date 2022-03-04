@@ -1,0 +1,14 @@
+{
+    "require": {
+        "ext-pdo": "*",
+        "php": "^8.0.*",
+        "pecee/simple-router": "4.3.7.2"
+    },
+    "name": "johkel/vaderlek-routing",
+    "description": "https://github.com/skipperbent/simple-php-router",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    }
+}
