@@ -7,16 +7,15 @@ class ApiController
     public function index()
     {
         $weather = new Weather();
-        return "index";
+        $data = $weather->index();
+        outputJson($data);
     }
 
-    public function latestDays(int $days)
+    public function latestDays(int $days = 7)
     {
-        return $days;
+        $weather = new Weather();
+        $data = $weather->days($days);
+        outputJson($data);
     }
 
-    public function latestWeeks(int $weeks=1)
-    {
-        return $weeks;
-    }
 }

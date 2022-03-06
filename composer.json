@@ -1,8 +1,10 @@
 {
     "require": {
         "ext-pdo": "*",
-        "php": "^8.0.*",
-        "pecee/simple-router": "4.3.7.2"
+        "php": "^8.0.6",
+        "pecee/simple-router": "4.3.7.2",
+        "vlucas/phpdotenv": "^5.4",
+        "nesbot/carbon": "^2.57"
     },
     "name": "johkel/vaderlek-routing",
     "description": "https://github.com/skipperbent/simple-php-router",
