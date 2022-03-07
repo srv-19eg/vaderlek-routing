@@ -25,7 +25,7 @@ Beskriv hur man använder ert projekt
 
 ## Database
 d
-![Database diagram](https://myoctocat.com/assets/images/base-octocat.svg)
+![Database diagram](App/Models/weather_db.png)
 
 
 ## Kodexempel
