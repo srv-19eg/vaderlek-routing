@@ -17,7 +17,7 @@ class Singleton
         $db = $_ENV["DB"];
         $user = $_ENV["USER"];
         $pass = $_ENV["PASSWORD"];
-        $dsn = "mysql:host=$host;port=3306;dbname=$db";
+        $dsn = "mysql:host=$host;port=3306;dbname=$db;charset=utf8;";
         $settings = [
             PDO::ATTR_PERSISTENT => $_ENV["PDO_PERSIST"],
             PDO::MYSQL_ATTR_LOCAL_INFILE => $_ENV["PDO_LOCAL_INFILE"],
